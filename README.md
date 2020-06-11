@@ -1,9 +1,9 @@
 Note this project is actively being worked on 
 
 
-# Black Lives Matter
+# An Investigation of New York Police Department's practice of Stop, Question, and Frisk
 
-The protests of June 2020 demonstrate that all across America, the people are upset at the systematic discrimination and violence that Black people have been experiencing for centuries. Of the countless injustices, this project will focus on the racial profiling of Black people by the police.
+The protests of June 2020 demonstrate that all across America, the people are upset at the systematic discrimination and violence that Black people have been experiencing for centuries. Of the countless injustices, now in mainstream focus thanks to the Black Lives Matter movement, this project will focus on the horrid racial profiling of Black people by the police.
 
 
 # Notion Page
