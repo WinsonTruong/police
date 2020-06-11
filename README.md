@@ -1,6 +1,7 @@
-Note this project is actively being worked on
+Note this project is actively being worked on 
 
-# Black. Lives. Matter
+
+# Black Lives Matter
 
 The protests of June 2020 demonstrate that all across America, the people are upset at the systematic discrimination and violence that Black people have been experiencing for centuries. Of the countless injustices, this project will focus on the racial profiling of Black people by the police.
 
