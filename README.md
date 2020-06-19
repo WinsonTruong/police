@@ -5,7 +5,7 @@ The protests of June 2020 demonstrate that all across America, the people are up
 
 # Notion Page
 This dedicated website explains the background knowledge and walks you through my methods. Highly recommended!
-tinyurl.com/stopSQF/
+tinyurl.com/stopSQF
 
 # Questions 
 1. What are the past behaviors and trends of officers who racially profile black people?
