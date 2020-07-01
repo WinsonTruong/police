@@ -3,7 +3,7 @@
 The protests of June 2020 demonstrate that all across America, the people were upset at the systemtic discrimination and violence that Black Americans have been experiencing for centuries. Of the countless injustices, now in mainstream focus thanks to the Black Lives Matter movement, this project will focus on the horrid racial profiling of Black people by the police.
 
 This picture says it all:
-![alt text](https://github.com/WinsonTruong/police/blob/images/frisk_v_arrest.png?raw=true)
+![alt text](https://github.com/WinsonTruong/police/images/frisk_v_arrest.png?raw=true)
 
 
 # Notion Page
