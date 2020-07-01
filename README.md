@@ -3,7 +3,7 @@
 The protests of June 2020 demonstrate that all across America, the people were upset at the systemtic discrimination and violence that Black Americans have been experiencing for centuries. Of the countless injustices, now in mainstream focus thanks to the Black Lives Matter movement, this project will focus on the horrid racial profiling of Black people by the police.
 
 This picture says it all:
-[](/images/frisk_v_arrest.png?raw=true)
+![Image 1](https://github.com/WinsonTruong/police/blob/master/images/frisk_v_arrest.png)
 
 
 # Notion Page
@@ -20,7 +20,20 @@ The primary data we will be using is publicly available by the New York Police D
 
 
 # EDA
-[](/images/bronx_queens_colored.png?raw=true)
+Using the power of Tableau and Python, here are some visualizations of interest
+
+Police behavior seems to change depending on when their shift is:
+![Image 2](https://github.com/WinsonTruong/police/blob/master/images/bronx_queens.png)
+
+Most of the time, it seems the low-level officers are conducting the stop and frisks
+
+A Heatmap of Stops by officer rank             |  A table describing the officers success rate 
+:---------------------------------------------:|:--------------------------------------------:
+![Image 3](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)  |  ![Image 4](https://github.com/WinsonTruong/police/blob/master/images/police_rank2.png)
+
+
+
+
 
 # Results
 
