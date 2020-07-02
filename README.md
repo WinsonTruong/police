@@ -7,7 +7,7 @@ The protests of June 2020 demonstrate that all across America, the people were u
 
 
 # Notion Page
-This dedicated website explains the background knowledge and walks you through my methods. Highly recommended!
+This dedicated website explains the background knowledge and walks you through all the my modeling decisions. Highly recommended!
 https://www.tinyurl.com/stopSQF/
 
 # Questions 
@@ -22,7 +22,7 @@ The primary data we will be using is [publicly available by the New York Police 
 
 ![Image 2](https://github.com/WinsonTruong/police/blob/master/images/missing_data.png)
 
-In order to account for the missing values we will impute via [Multiple Imputation by Chained Equations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/)_.
+In order to account for the missing values we will impute via [Multiple Imputation by Chained Equations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/).
 
 Why Impute? Single imputation procedures such as replacing the data with the sample mean would mean I have to draw a decision boundary for my binary variables and with no prior knowledge, mean imputation could potentially accentuate bias. In order to maintain the relationship between the variables, I believe a Bayesian method that utilizes the other well-defined feature sets is best.
 
@@ -34,18 +34,16 @@ Police behavior seems to change depending on when their shift is:
 
 Most of the time, it seems the low-level officers are conducting the stop and frisks
 
-A Heatmap of Stops by Officer Rank
+The heatmap below shows that most stop and frisks are done by daytime patrol officers
 ![Image 4](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)
 
-A table describing the officers success rate 
+And overall, they seem to be stopping on false assumptions as indicated by their low success rate.
 ![Image 5](https://github.com/WinsonTruong/police/blob/master/images/police_rank2.png)
 
 
 
-
-
 # Results
-
+TBC
 
 
 
