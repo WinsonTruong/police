@@ -16,20 +16,27 @@ https://www.tinyurl.com/stopSQF/
 3. Is SQF fair? Does SQF and policing at large have to be fair to begin with?
 
 # Data
-The primary data we will be using is publicly available by the New York Police Department (NYPD). It contains every recording of stop, question, and frisk practices used in 2019. While data starting from 2003 is available, it does not follow the same layout year-by-year and often contains missing data. The cleaning process can be found in the 'notebooks' directory where there is a 'clean_and_impute.ipynb' notebook.
+The primary data we will be using is [publicly available by the New York Police Department](https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page). It contains every recording of stop, question, and frisk practices used in 2019. While data starting from 2003 is available, it does not follow the same layout year-by-year and often contains missing data. The cleaning process can be found in the 'notebooks' directory where there is a 'clean_and_impute.ipynb' notebook.
+
+
+Original Dataset        | After Imputation via [Multiple Imputation by Chained Equations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/)
+:----------------------:|:--------------------------------------------:
+
+![Image 2](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)  |  
+![Image 3](https://github.com/WinsonTruong/police/blob/master/images/police_rank2.png)
 
 
 # EDA
 Using the power of Tableau and Python, here are some visualizations of interest
 
 Police behavior seems to change depending on when their shift is:
-![Image 2](https://github.com/WinsonTruong/police/blob/master/images/bronx_queens.png)
+![Image 4](https://github.com/WinsonTruong/police/blob/master/images/bronx_queens.png)
 
 Most of the time, it seems the low-level officers are conducting the stop and frisks
 
-A Heatmap of Stops by officer rank             |  A table describing the officers success rate 
-:---------------------------------------------:|:--------------------------------------------:
-![Image 3](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)  |  ![Image 4](https://github.com/WinsonTruong/police/blob/master/images/police_rank2.png)
+A Heatmap of Stops by Officer Rank     |  A table describing the officers success rate 
+:-------------------------------------:|:--------------------------------------------:
+![Image 5](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)  |  ![Image 6](https://github.com/WinsonTruong/police/blob/master/images/police_rank2.png)
 
 
 
@@ -41,4 +48,4 @@ A Heatmap of Stops by officer rank             |  A table describing the officer
 
 
 
-* source: https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+* source: 
