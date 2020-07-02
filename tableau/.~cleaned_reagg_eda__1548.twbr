@@ -2627,7 +2627,7 @@ Data Source: </run>
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Frisk v Arrest'>
+    <window class='worksheet' name='Frisk v Arrest'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2661,7 +2661,7 @@ Data Source: </run>
       </cards>
       <simple-id uuid='{CC3D545D-A0AA-4065-9CBE-B22F5A706D12}' />
     </window>
-    <window class='worksheet' name='Sentiment Black'>
+    <window class='worksheet' maximized='true' name='Sentiment Black'>
       <cards>
         <edge name='left'>
           <strip size='300'>
