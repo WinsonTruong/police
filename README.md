@@ -29,14 +29,14 @@ Why Impute? Single imputation procedures such as replacing the data with the sam
 # EDA
 Using the power of Tableau and Python, here are some visualizations of interest
 
-Police behavior seems to change depending on when their shift is:
+#### Police behavior seems to change depending on when their shift is:
 ![Image 3](https://github.com/WinsonTruong/police/blob/master/images/bronx_queens.png)
 
-The heatmap below shows that most stop and frisks are done by daytime patrol officers
+
+
+#### The heatmap below shows that most stop and frisks are done by daytime patrol officers
 ![Image 4](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)
 
-And overall, they seem to be stopping on false assumptions as indicated by their low success rate.
-![Image 5](https://github.com/WinsonTruong/police/blob/master/images/police_rank2.png)
 
 
 # Models and Feature Selection
