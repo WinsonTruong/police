@@ -44,16 +44,17 @@ And overall, they seem to be stopping on false assumptions as indicated by their
 I will use 3 different feature sets, with increasing complexity, for each of the 4 models. 
 
 
-Feature Sets          | Models
+**Feature Sets**      | **Models**
 --------------------- | -------------
 Race                  | Logistic Regression (Baseline)
 Appearance            | Logistic Regression + LASSO
 Context               | SVM with Linear Kernel
 \                     | SVM with Gaussian Kernel
-Comparison Statistics | Outputs
---------------------- | -------------
-F1 Score              | Comparison Table
-False Discovery Rate  | ROC Curves
+
+**Comparison Statistics** | **Outputs**
+------------------------  | -------------
+F1 Score                  | Comparison Table
+False Discovery Rate      | ROC Curves
 
 #### _Why the LASSO?_
 I'm also interested in when my model is incorrect because an error in the context of policing could lead to claims of racial profiling by the police. While FDR-control is not the point of this project it is a very interesting idea.
