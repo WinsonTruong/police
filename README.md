@@ -7,8 +7,8 @@ The protests of June 2020 demonstrate that all across America, the people were u
 
 
 # Notion Page
-This dedicated website explains the background knowledge and walks you through all the my modeling decisions. Highly recommended!
-https://www.tinyurl.com/stopSQF/
+[This dedicated website](https://www.tinyurl.com/stopSQF/) explains the background knowledge and walks you through all the my modeling decisions. 
+
 
 # Questions 
 1. What are the past behaviors and trends of officers who racially profile black people?
@@ -57,10 +57,9 @@ F1 Score                  | Comparison Table
 False Discovery Rate      | ROC Curves
 
 #### _Why the LASSO?_
-I'm also interested in when my model is incorrect because an error in the context of policing could lead to claims of racial profiling by the police. While FDR-control is not the point of this project it is a very interesting idea.
+I could penalize/erase potentially insignificant features like hair color which could lead to more generalizability
 
 #### _Why SVM with Differeing Kernels?_
-
 - the data might not be linearly seperable, in which the SVM can handle the high dimensionality
 - there is a decently large sample size
 - I want to understand the tradeoff between speed/burn-in time relative to accuracy
@@ -80,5 +79,6 @@ I'm also interested in when my model is incorrect because an error in the contex
 **Some Observations**
 1. The F1 Score seems to hover around (0.5, 0.58). While this isn't the highest ideal score, we can see that adding 'Appearance' helps by about 0.05 and 'Context' features by about 0.01. While my model doesn't account for all latent variables, **officers are classifying primarily based on race.**
 2. In terms of the F1 Score, the Logistic LASSO outperforms the other 3 models in the 'Race' and 'Context' feature sets.
-3. Given all our models and datasets, the FDR approximately ranges from (0.36,  0.43). That means our models predicts that officers are frisking individuals on **un**-reasonable suspicion about 40% of the time.
+3. Given all our models and datasets, the FDR approximately ranges from (0.36,  0.43). That means our models predicts that officers are frisking individuals on **un**-reasonable suspicion about 40% of the time. Read more about the [future studies here](https://www.notion.so/winsontruong/Conclusion-ae24f3b9aa0b4b678eadc2375c39c578)!
+
 
