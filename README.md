@@ -32,7 +32,6 @@ Using the power of Tableau and Python, here are some visualizations of interest
 Police behavior seems to change depending on when their shift is:
 ![Image 3](https://github.com/WinsonTruong/police/blob/master/images/bronx_queens.png)
 
-Most of the time, it seems the low-level officers are conducting the stop and frisks
 
 The heatmap below shows that most stop and frisks are done by daytime patrol officers
 ![Image 4](https://github.com/WinsonTruong/police/blob/master/images/police_rank.png)
