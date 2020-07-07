@@ -50,7 +50,6 @@ Race                  | Logistic Regression (Baseline)
 Appearance            | Logistic Regression + LASSO
 Context               | SVM with Linear Kernel
                       | SVM with Gaussian Kernel
-
 Comparison Statistics | Outputs
 --------------------- | -------------
 F1 Score              | Comparison Table
